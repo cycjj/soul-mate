@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>soul-mate</title>
+	<link rel="stylesheet" href="home.css">
+</head>
+<body>
+	<div class="contrainer header">
+		<div class="w1000 tc body">
+			<div class="event_wrap clearfix">
+				<div class="middle_line">				
+				</div>			
+			</div>
+		</div>
+	</div>
+	<div style="width: 100%; height: auto; line-height: 25px; text-align: center;"></div>	
+</body>
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src='jquery.eventFlow.js'></script>
+<script>
+	$(function(){
+		var bigEvent =[{
+		'year' : 2016,
+		'events' :[
+		{
+			'mouths' : 9,
+			'times' :'2016年9月18',
+			'even' :'小兔叽别跑和此语重唧唧在天涯明月刀相遇了，那是所有的一切开始的时间。'
+		},{
+			'mouths' : 12,
+			'times' :'2016年12月23',
+			'even' :'兔兔和唧唧终于面基成功啦！！！虽然唧唧比较的腼腆，但是耐心的兔兔很快让他跟自己打成了一片'
+		},{
+			'mouths' : 12,
+			'times' :'2015年12月23日',
+			'even' :'这一天发生了好多不可思议的事情啊，最重要的是他们都很开心！！！'
+		}]
+	},{
+		'year' : 2017,
+		'events' :[
+		{
+			'mouths' : 2,
+			'times' :'2017年2月8',
+			'even' :'外公过80岁生日，可是我却一点也开心不起来，内心很煎熬，心里总有一种感觉，我竭力地抚慰着外公，而小兔竭力地抚慰着我。'
+		},{
+			'mouths' : 3,
+			'times' :'2017年3月31',
+			'even' :'小兔第一次去我家，我们一起开心的做饭，一起开心的玩游戏，一起去看望外婆，特别的充实。'
+		},{
+			'mouths' : 7,
+			'times' :'2017年7月12',
+			'even' :'在南京实习的生活真的好累呀！不过小兔偶尔来找我玩真的好开心。'
+		},{
+			'mouths' : 8,
+			'times' :'2017年8月19',
+			'even' :'跟妈妈见面好开心呀！可是爬得越高摔得越疼，事实永远是那么的残酷，那是我除了在北京隔离治疗之外从未经历过的最孤独无助的时候。'
+		},{
+			'mouths' : 10,
+			'times' :'2017年10月22',
+			'even' :'一天接这一天的压抑感，没有工作，没有目标，可是我始终有小兔的支持，也许这就是天使吧。'
+		}]
+	},{ 
+		'year' : 2018,
+		'events' :[
+		{
+			'mouths' : 5,
+			'times' :'2018年5月4',
+			'even' :'今天是五月四日，我们认识的第594天，我们之间的开心也好，摩擦也好，这些都是我们在这594天里对你我来说十分珍贵的回忆，我会用一辈子去记住。'
+		},{
+			'mouths' : 5,
+			'times' :'2018年5月4',
+			'even' :'我爱你，小兔，这是我们的大事件簿，我会用它记录到我们生命的尽头。'
+		}
+		]}];
+		$('.event_wrap').eventFlow({'events':bigEvent});
+	})
+
+</script>
+</html>
